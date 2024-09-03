@@ -38,4 +38,6 @@ app.post("/getBalance", async(req,res) => {
     })
 })
 
-export default app;
+app.listen(3000);
+
+//export default app;
